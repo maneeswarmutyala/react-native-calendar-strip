@@ -104,7 +104,7 @@ class CalendarHeader extends Component {
           >
             {_headerText}
           </Text>
-          <View style={{ display: 'flex', flexDirection: 'row' }}>
+          <View style={{ display: 'flex', flexDirection: 'row', justifyContent:'space-between', width:50}}>
             <WeekSelector
               controlDate={this.props.parentProps.minDate}
               iconComponent={this.props.parentProps.leftSelector}

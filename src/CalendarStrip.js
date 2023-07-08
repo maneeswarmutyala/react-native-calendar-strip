@@ -529,37 +529,7 @@ class CalendarStrip extends Component {
       <CalendarDay {...props} />
     );
   }
-  renderLeftArrow(){
-    return(
-      <WeekSelector
-              controlDate={this.props?.minDate}
-              iconComponent={this.props?.leftSelector}
-              iconContainerStyle={this.props?.iconContainer}
-              iconInstanceStyle={this.props?.iconLeftStyle}
-              iconStyle={this.props?.iconStyle}
-              imageSource={this.props?.iconLeft}
-              onPress={this.getPreviousWeek}
-              weekStartDate={this.state?.weekStartDate}
-              weekEndDate={this.state?.weekEndDate}
-              size={this.state?.selectorSize}
-            />
-    )
-  }
-  renderRightArrow(){
-    return(
-      <WeekSelector
-            controlDate={this.props.maxDate}
-            iconComponent={this.props.rightSelector}
-            iconContainerStyle={this.props.iconContainer}
-            iconInstanceStyle={this.props.iconRightStyle}
-            iconStyle={this.props.iconStyle}
-            imageSource={this.props.iconRight}
-            onPress={this.getNextWeek}
-            weekStartDate={this.state.weekStartDate}
-            weekEndDate={this.state.weekEndDate}
-            size={this.state.selectorSize} />
-    )
-  }
+  
   renderHeader() {
     return (this.props.showMonth &&
       <>
