@@ -11,7 +11,7 @@
 <img width="332" alt="Screenshot 2023-08-07 at 3 43 54 PM" src="https://github.com/maneeswarmutyala/react-native-calendar-strip/assets/44763136/03055221-d6dd-4108-a4be-e049b243d18a">
 
 <strong>Code Changes</strong>
-<p> Passing Component State as prop `parentProps` to header component from Strip component</p>
+<p> Passing Component State as prop `parentProps` `parentState` to header component from Strip component</p>
 
 ```Javascript
 <CalendarHeader
